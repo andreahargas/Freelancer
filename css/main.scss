@@ -8,7 +8,60 @@ $theme-colors: (
 
 
 
+
+
+
 body{
-    font-family: 'Poppins', sans-serif;
+    // font-family: 'Poppins', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+header{
+    height: 48rem;
+    margin: 0 23.5em;
+    // background-color: rebeccapurple;
+    .navbar{
+        height: 7.5em;
+        background-color: salmon;
+        padding: 0;
+
+        .navbar-brand{
+            font-size: 2rem;
+            margin: 0;   
+            font-family: 'Roboto', sans-serif;    
+        }
+
+        ul{
+            li{
+                padding: 0 1em;
+                font-family: 'Poppins', sans-serif;
+                font-size: 0.875rem;
+            }
+            .contact{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .d-flex{
+        background-color: sandybrown;
+
+        h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        }
+
+        img{
+            height: 39em;
+            margin: 0 1em;
+            background-color: springgreen;
+        }
+        .test{
+            background-color: violet;
+        }
+    }
+
+}

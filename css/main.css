@@ -10803,6 +10803,55 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 48rem;
+  margin: 0 23.5em;
+}
+
+header .navbar {
+  height: 7.5em;
+  background-color: salmon;
+  padding: 0;
+}
+
+header .navbar .navbar-brand {
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header .navbar ul li {
+  padding: 0 1em;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+}
+
+header .navbar ul .contact {
+  margin-right: 0;
+}
+
+header .d-flex {
+  background-color: sandybrown;
+}
+
+header .d-flex h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+header .d-flex img {
+  height: 39em;
+  margin: 0 1em;
+  background-color: springgreen;
+}
+
+header .d-flex .test {
+  background-color: violet;
 }
 /*# sourceMappingURL=main.css.map */
