@@ -10810,8 +10810,9 @@ body {
 }
 
 header {
-  height: 48rem;
-  margin: 0 23.5em;
+  max-width: 83rem;
+  margin: auto;
+  background-color: rebeccapurple;
 }
 
 header .navbar {
@@ -10838,6 +10839,7 @@ header .navbar ul .contact {
 
 header .d-flex {
   background-color: sandybrown;
+  max-height: 40.5em;
 }
 
 header .d-flex h1 {
@@ -10846,12 +10848,8 @@ header .d-flex h1 {
 }
 
 header .d-flex img {
-  height: 39em;
+  width: 31.5em;
   margin: 0 1em;
   background-color: springgreen;
-}
-
-header .d-flex .test {
-  background-color: violet;
 }
 /*# sourceMappingURL=main.css.map */

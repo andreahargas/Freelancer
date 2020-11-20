@@ -20,9 +20,9 @@ body{
 }
 
 header{
-    height: 48rem;
-    margin: 0 23.5em;
-    // background-color: rebeccapurple;
+    max-width: 83rem;
+    margin: auto;
+    background-color: rebeccapurple;
     .navbar{
         height: 7.5em;
         background-color: salmon;
@@ -48,6 +48,7 @@ header{
 
     .d-flex{
         background-color: sandybrown;
+        max-height: 40.5em;
 
         h1{
         font-family: 'Poppins', sans-serif;
@@ -55,13 +56,11 @@ header{
         }
 
         img{
-            height: 39em;
+            width: 31.5em;
             margin: 0 1em;
             background-color: springgreen;
         }
-        .test{
-            background-color: violet;
-        }
+
     }
 
 }
