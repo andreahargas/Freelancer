@@ -54,3 +54,7 @@ tools/gulp-tasks/cldr/cldr-data/
 
 # Husky
 .husky/_
+
+#ignore built files
+css/main.css
+css/main.map.css
