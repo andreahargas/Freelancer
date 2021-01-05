@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: #1e1e1e;
+}
+
+.footer {
+  height: 5rem;
+  max-width: 76.2rem;
+  padding: 1rem 1.5rem;
+  margin: auto;
+
+  p {
+    font-size: 0.75rem;
+    color: #dadada;
+    margin: 0;
+  }
+
+  &-logos {
+    img {
+      margin: 0 0.75rem;
+    }
+  }
+}

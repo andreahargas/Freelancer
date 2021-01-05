@@ -1,0 +1,62 @@
+.testimonials-container {
+  max-height: 52rem;
+}
+
+.testimonials {
+  max-width: 76.2rem;
+  padding: 0 1.5rem;
+  margin: auto;
+  text-align: center;
+
+  &-title {
+    font-weight: 600;
+    font-size: 2.375rem;
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/comma.png") center/contain no-repeat;
+    margin-top: 7.625rem;
+    margin-bottom: 3rem;
+  }
+
+  &-item {
+    .star-img {
+      margin-bottom: 1.7rem;
+    }
+
+    .review-text {
+      font-size: 1.125rem;
+      max-width: 50.7rem;
+      margin: auto;
+    }
+
+    .circle-img {
+      margin-top: 2.125rem;
+      margin-bottom: 1.125rem;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 1.125rem;
+    }
+
+    .job-title {
+      color: #999999;
+      font-size: 0.75rem;
+      margin-bottom: 8.125rem;
+    }
+  }
+}
+
+.partners {
+  max-width: 76.2rem;
+  margin: auto;
+  margin-bottom: 7.375rem;
+
+  .partners-logo {
+    @include media-breakpoint-down(sm) {
+      margin: 1rem;
+    }
+  }
+}

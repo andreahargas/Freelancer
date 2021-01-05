@@ -1,0 +1,34 @@
+.services-container {
+  min-height: 26rem;
+
+  @include media-breakpoint-down(sm) {
+    padding: 6rem 0;
+  }
+}
+
+.services {
+  width: 76.2rem;
+  padding: 0 1.5rem;
+
+  &-item {
+    img {
+      height: 4.375em;
+      margin-bottom: 1.5em;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 0.875rem;
+      max-width: 21.25rem;
+      line-height: 1.7em;
+
+      @include media-breakpoint-down(md) {
+        max-width: 50rem;
+      }
+    }
+  }
+}

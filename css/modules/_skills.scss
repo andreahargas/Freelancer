@@ -1,0 +1,62 @@
+.skills-container {
+  background-color: #f7f7f7;
+}
+
+.skills {
+  max-width: 76.2rem;
+  padding: 0 1.5rem;
+  margin: auto;
+  padding-top: 7rem;
+  padding-bottom: 8.4rem;
+
+  &-item-text-container {
+    h2 {
+      font-weight: 600;
+      font-size: 2.25rem;
+      line-height: 1.5em;
+      margin-top: 3rem;
+      margin-bottom: 2.75rem;
+    }
+
+    h3 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.124rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      margin-left: 4rem;
+      position: relative;
+
+      @include media-breakpoint-down(sm) {
+        margin-left: 0;
+      }
+
+      &::before {
+        content: "";
+        width: 36px;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        left: -4rem;
+        top: 0.63rem;
+
+        @include media-breakpoint-down(sm) {
+          left: 0;
+          top: -1.6rem;
+        }
+      }
+    }
+
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.875rem;
+      margin-left: 4rem;
+      max-width: 25rem;
+      line-height: 2rem;
+      margin-bottom: 2.6rem;
+
+      @include media-breakpoint-down(sm) {
+        margin-left: 0;
+      }
+    }
+  }
+}
